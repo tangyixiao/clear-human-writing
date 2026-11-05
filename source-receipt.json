@@ -2,10 +2,33 @@
   "repo": "tangyixiao/clear-human-writing",
   "sourceBranch": "main",
   "sourceCommit": "b46e4a1d9469336ebc1cc1c3a02310f89228dda5",
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "墨色、酒红批注与暖纸的编辑室：主标题像书稿首页题签，正文以一份明确标为“页面说明示例”的短段落为主体，酒红修订边注解释为什么保留事实与证据。首屏只有稿纸、编辑尺与字句，不再用源码框冒充视觉。事实边界：可安装 Agent Skill，不是在线润色服务，不许伪造作者原文或修改效果数据。",
+    "layout": "editorial",
+    "palette": {
+      "light": {
+        "bg": "#E9DFD0",
+        "surface": "#FCF4E6",
+        "ink": "#34262B",
+        "muted": "#745e63",
+        "accent": "#8e3652"
+      },
+      "dark": {
+        "bg": "#231A20",
+        "surface": "#37252E",
+        "ink": "#F4E9E1",
+        "muted": "#bca1ab",
+        "accent": "#dea0b7"
+      }
+    },
+    "threeConcept": "Three.js 制作墨色书稿夹、两张有厚度的稿纸和酒红编辑尺；文字是可读取的HTML覆盖层，不把文字烘成糊图。翻纸只为对照事实边界，避免花哨羽毛笔。",
+    "distinctiveInteraction": "开关“查看编辑理由”展开酒红边注，逐处解释删冗余与保留证据限定；示例完全本地，无输入上传、不假装调用模型，安装入口明确跳仓库。"
+  },
   "media": [],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
