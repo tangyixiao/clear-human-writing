@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "Edit Chinese and English drafts while preserving facts, technical conditions and tone. Request a clean rewrite or ask for a passage-by-passage review."
+  },
+  "pages": {
+    "home": {
+      "title": "Cut the stock phrasing, keep the author’s voice · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "Edit Chinese and English drafts while preserving facts, technical conditions and tone. Request a clean rewrite or ask for a passage-by-passage review."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "For Codex, run npx skills add tangyixiao/clear-human-writing --global --agent codex."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "Read worked examples",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "MIT original content · upstream notices"
+  },
+  "hero": {
+    "title": [
+      "Cut the stock phrasing, keep the author’s voice"
+    ],
+    "description": [
+      "Edit Chinese and English drafts while preserving facts, technical conditions and tone. Request a clean rewrite or ask for a passage-by-passage review."
+    ],
+    "primary_action": "Read worked examples",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "First steps",
+    "tabs": [
+      {
+        "label": "Get started",
+        "icon": "book"
+      }
+    ],
+    "items": [
+      {
+        "title": "Install the skill",
+        "description": "For Codex, run npx skills add tangyixiao/clear-human-writing --global --agent codex.",
+        "icon": "book"
+      },
+      {
+        "title": "Try a paragraph",
+        "description": "Invoke $clear-human-writing in a new session, paste the draft and identify the terms, figures and output format you need.",
+        "icon": "link"
+      }
+    ]
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "Research and procedures",
+        "description": "Keep data, citations and evidence limits in academic work. Preserve thresholds, operation order and prohibitions in a procedure.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Control the edit",
+        "description": "Target one section, flag defensive wording or provide a writing sample to calibrate the voice.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Install the skill",
+        "description": "For Codex, run npx skills add tangyixiao/clear-human-writing --global --agent codex.",
+        "icon": "book"
+      },
+      {
+        "title": "Try a paragraph",
+        "description": "Invoke $clear-human-writing in a new session, paste the draft and identify the terms, figures and output format you need.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Help and feedback",
+        "description": "Browse existing reports or describe a reproducible problem.",
+        "icon": "book"
+      },
+      {
+        "label": "Source repository",
+        "description": "Find the project and its maintenance links.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}
